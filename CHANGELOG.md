@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.0.0
+
+ * Fixed compatibility with `psr/http-message` v2
+
 ## 2.2.0
 
  * Allow installation with Symfony 7
