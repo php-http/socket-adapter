@@ -19,6 +19,8 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  * Use stream and socket capabilities of the core of PHP to send HTTP requests
  *
  * @author Joel Wurtz <joel.wurtz@gmail.com>
+ *
+ * @final
  */
 class Client implements HttpClient
 {

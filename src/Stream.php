@@ -21,7 +21,9 @@ use Psr\Http\Message\StreamInterface;
  *
  * Writing and seeking is disable to avoid weird behaviors.
  *
- * @author Joel Wurtz <joel.wurtz@gmail.com>
+ * @author Joel Wurtz <joel.wurtz@gmail.com
+ *
+ * @internal>
  */
 class Stream implements StreamInterface
 {
