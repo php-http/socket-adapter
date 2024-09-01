@@ -1,8 +1,9 @@
 # Change Log
 
-## 3.0.0
+## 2.3.0
 
  * Fixed compatibility with `psr/http-message` v2
+ * The `Http\Client\Socket\Stream` has BC breaks if you extended it. It is not meant to be extended, declaring it as `@internal` now.
 
 ## 2.2.0
 
