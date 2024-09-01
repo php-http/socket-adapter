@@ -155,9 +155,14 @@ class Stream implements StreamInterface
      */
     public function read($length): string
     {
+        if (0 === $length) {
+            return '';
+        }
+
         if ($this->isDetached || null === $this->socket) {
             throw new StreamException('Stream is detached');
         }
+
         if (null === $this->getSize()) {
             $read = fread($this->socket, $length);
             if (false === $read) {
