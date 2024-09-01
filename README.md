@@ -28,7 +28,7 @@ First launch the http server:
 $ ./vendor/bin/http_test_server > /dev/null 2>&1 &
 ```
 
-Then generate ssh certificates:
+Then generate SSL certificates:
 
 ```bash
 $ composer gen-ssl

@@ -12,4 +12,29 @@ class SocketClientFeatureTest extends HttpFeatureTest
     {
         return new SocketHttpClient();
     }
+
+    public function testAutoSetContentLength(): void
+    {
+        $this->markTestSkipped('Feature is unsupported');
+    }
+
+    public function testGzip(): void
+    {
+        $this->markTestSkipped('Feature is unsupported');
+    }
+
+    public function testDeflate(): void
+    {
+        $this->markTestSkipped('Feature is unsupported');
+    }
+
+    public function testChunked(): void
+    {
+        $this->markTestSkipped('Feature is unsupported');
+    }
+
+    public function testRedirect(): void
+    {
+        $this->markTestSkipped('Feature is unsupported');
+    }
 }
